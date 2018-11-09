@@ -1,4 +1,4 @@
-public abstract class Veiculo {
+    public abstract class Veiculo {
     public int capacidadeLugares;
     public String especialidade;
     public String localizacao;
