@@ -3,10 +3,10 @@ public class Acidente {
     public String localizacao;
     public boolean estadoAtendimento;
 
-    public Acidente(int gravidade, String localizacao, boolean estadoAtendimento) {
+    public Acidente(int gravidade, String localizacao) {
       this.gravidade = gravidade;
       this.localizacao = localizacao;
-      this.estadoAtendimento = estadoAtendimento;
+      this.estadoAtendimento = false;
     }
 
     public void solicitaAtendimento(){
@@ -18,6 +18,6 @@ public class Acidente {
     }
 
     private void atendeAcidente(){
-      //TODO;
+      this.estadoAtendimento = true;
     }
 }
