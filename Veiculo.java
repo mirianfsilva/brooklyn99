@@ -14,6 +14,6 @@ public abstract class Veiculo {
     }
 
     public void enviaVeiculo() {
-        //TODO;
+        this.disponibilidade = false;
     }
 }
